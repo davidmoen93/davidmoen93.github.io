@@ -76,5 +76,5 @@ a {
 		}
 
 		.home-header a:hover {
-		    transform: translateY(-2px);
+		    transform: translate(-50%, -2px);
 		}
