@@ -29,3 +29,12 @@ html {
 	color: #404040;
 	line-height: 1.61803398875;
 }
+
+.home-header {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('images/home-bg.jpg');
+	background-size: contain;
+}
