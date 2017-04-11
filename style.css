@@ -30,6 +30,10 @@ html {
 	line-height: 1.61803398875;
 }
 
+a {
+	text-decoration: none;
+}
+
 .home-header {
 	display: block;
 	position: relative;
@@ -37,6 +41,7 @@ html {
 	height: 100vh;
 	background: url('images/home-bg.jpg');
 	background-size: contain;
+	text-align: center;
 }
 
 	.home-header h1 {
@@ -45,6 +50,14 @@ html {
 		left: 50%;
 		transform: translate(-50%,-50%);
 		font-weight: 800;
-		font-size: 50px;
-		letter-spacing: 2px;
+		font-size: 60px;
+		color: #ffffff;
+	}
+
+	.home-header a {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		color: #ffffff;
 	}
