@@ -56,19 +56,25 @@ a {
 
 	.home-header a {
 		position: absolute;
-		bottom: 40px;
+		bottom: 60px;
 		left: 50%;
 		transform: translateX(-50%);
 		color: #ffffff;
+		font-weight: 800;
+		letter-spacing: 1px;
 	}
 
 		.home-header a:after {
 			content: "\f078";
 			font-family: FontAwesome;
 			position: absolute;
-			bottom: 0;
+			bottom: -30px;
 			left: 50%;
 			transform: translateX(-50%);
 			color: #ffffff;
 			font-size: 20px;
+		}
+
+		.home-header a:hover {
+		    transform: translateY(-2px);
 		}
