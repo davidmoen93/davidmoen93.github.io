@@ -211,6 +211,10 @@ a.btn {
 						transform: translateY(-50%);
 					}
 
+						.home-container li a.btn.active:hover:after {
+							color: #ffffff;
+						}
+
 			.home-image {
 				position: absolute;
 				top: 30px;
