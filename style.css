@@ -136,23 +136,23 @@ a.btn {
 				opacity: 1;
 			}
 	
-	.home-container ul {
+	.home-container > ul {
 		display: block;
 		margin-top: 50px;
 		width: 100%;
 	}
 
-		.home-container li {
+		.home-container > ul > li {
 			width: 100%;
 			display: block;
 			position: relative;
 		}
 
-			.home-container li:not(:last-child) {
+			.home-container > ul > li:not(:last-child) {
 				margin-bottom: 50px;
 			}
 
-				.home-container li:not(:last-child):after {
+				.home-container > ul > li:not(:last-child):after {
 					content: "";
 					position: absolute;
 					bottom: -29px;
