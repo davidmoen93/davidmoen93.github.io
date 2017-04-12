@@ -193,7 +193,7 @@ a.btn {
 				top: 50%;
 				right: 0;
 				transform: translateY(-50%);
-				max-width: 30px;
+				max-width: 275px;
 				width: 100%; 
 			}
 
@@ -202,3 +202,30 @@ a.btn {
 					width: 100%;
 					height: auto;
 				}
+
+footer {
+	width: 100%;
+	background: #289628;
+	color: #ffffff;
+	text-align: center;
+	padding: 100px 50px;
+}
+
+	footer h2 {
+		font-size: 40px;
+		font-weight: 800;
+		padding-bottom: 20px;
+		display: block;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	footer h3 {
+		display: block;
+		font-weight: 800;
+		font-size: 18px;
+	}
+
+		footer h3 a {
+			color: #2A3A3F;
+		}
