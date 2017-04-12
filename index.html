@@ -8,12 +8,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" href="photoswipe.css"> 
-		<link rel="stylesheet" href="default-skin/default-skin.css"> 
-
 		<script src="jquery-2.1.4.min.js"></script>
-		<script src="photoswipe.min.js"></script> 
-		<script src="photoswipe-ui-default.min.js"></script> 
+		<!-- bxSlider Javascript file -->
+		<script src="jquery.bxslider.min.js"></script>
+		<!-- bxSlider CSS file -->
+		<link href="jquery.bxslider.css" rel="stylesheet" />
 	</head>
 	<body>
 
@@ -40,6 +39,12 @@
 					<div class="home-image cf">
 						<img src="images/grotto.jpg">
 					</div>
+					<ul class="bxslider">
+					  <li><img src="images/grotto.jpg" /></li>
+					  <li><img src="images/grotto.jpg" /></li>
+					  <li><img src="images/grotto.jpg" /></li>
+					  <li><img src="images/grotto.jpg" /></li>
+					</ul>
 				</li>
 				<li>
 					<div class="home-content cf">
@@ -113,6 +118,10 @@
 		      }
 		    }
 		  });
+		});
+
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider();
 		});
 
 	</script>
