@@ -309,7 +309,7 @@ footer {
 
 }
 
-@media (max-width: 60px) {
+@media (max-width: 600px) {
 
 	.home-header h1 {
 		font-size: 45px;
