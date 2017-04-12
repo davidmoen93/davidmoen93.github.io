@@ -304,6 +304,19 @@ footer {
 	.home-content {
 		width: 100%;
 		margin: 225px 0 0;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 60px) {
+
+	.home-header h1 {
+		font-size: 45px;
+	}
+
+	.home-header a {
+		bottom: 100px;
 	}
 
 }
