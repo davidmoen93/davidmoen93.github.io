@@ -162,22 +162,40 @@ a.btn {
 					background: rgba(0, 0, 0, 0.2);
 				}
 
-			.home-container li h3 {
-			    font-size: 26px;
-			    font-weight: 800;
-			    display: block;
-			    line-height: 1;
+			.home-content {
+				display: inline-block;
+				width: calc(100% - 400px);
+				margin-right: 50px;
 			}
 
-			.home-container li small {
-				font-style: italic;
-				opacity: 0.66;
-				font-size: 12px;
-				padding: 5px 0 20px;
-				display: block;
+				.home-container li h3 {
+				    font-size: 30px;
+				    font-weight: 800;
+				    display: block;
+				    line-height: 1;
+				}
+
+				.home-container li small {
+					font-style: italic;
+					opacity: 0.66;
+					font-size: 12px;
+					padding: 5px 0 20px;
+					display: block;
+				}
+
+				.home-container li p {
+					padding-bottom: 20px;
+					display: block;
+				}
+
+			.home-image {
+				display: inline-block;
+				max-width: 350px;
+				width: 100%; 
 			}
 
-			.home-container li p {
-				padding-bottom: 20px;
-				display: block;
-			}
+				.home-image img {
+					max-width: 100%;
+					width: 100%;
+					height: auto;
+				}
