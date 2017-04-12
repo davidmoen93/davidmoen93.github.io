@@ -202,6 +202,16 @@ a.btn {
 					height: auto;
 				}
 
+			.expand-image {
+				display: none;
+				margin-top: 50px;
+				text-align: center;
+			}
+
+				.expand-image.active {
+					display: block;
+				}
+
 footer {
 	width: 100%;
 	background: #289628;
