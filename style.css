@@ -26,8 +26,13 @@
 
 html {
 	font-family: 'Lato', sans-serif;
-	color: #404040;
+	color: #2A3A3F;
 	line-height: 1.61803398875;
+	background: #eeeeee;
+}
+
+ul {
+	list-style-type: none;
 }
 
 a {
@@ -48,21 +53,15 @@ a.btn {
 	letter-spacing: .025em;
 	text-decoration: none;
 	transition: all .15s ease;
-	color: #ffffff;
+	color: #2A3A3F;
 	text-shadow: 0 1px 3px rgba(36,180,126,.4);
+	border: 2px solid blue;
+	background: transparent;
 }
 
 	a.btn:hover {
 		transform: translateY(-2px);
 		box-shadow: 0 7px 14px rgba(50,50,93,.3), 0 3px 6px rgba(0,0,0,.2);
-	}
-
-	a.btn-green {
-		background: green;
-	}
-
-	a.btn-blue {
-		background: blue;
 	}
 
 
@@ -110,3 +109,18 @@ a.btn {
 		.home-header a:hover {
 		    transform: translate(-50%, -2px);
 		}
+
+.home-container {
+	width: 100%;
+	max-width: 1120px;
+	margin: 50px auto;
+	display: block;
+}
+	
+	.home-container h2 {
+		text-align: center;
+		font-weight: 800;
+		font-size: 40px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
