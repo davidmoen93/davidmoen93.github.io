@@ -51,6 +51,7 @@ a.btn {
 	color: #289628;
 	border: 2px solid #289628;
 	background: transparent;
+	position: relative;
 }
 
 	a.btn:hover {
@@ -127,12 +128,12 @@ a.btn {
 		letter-spacing: 1px;
 	}
 	
-		.home-container a {
+		.home-container h4 a {
 			color: #289628;
 			opacity: 0.66;
 		}
 	
-			.home-container a:hover {
+			.home-container h4 a:hover {
 				opacity: 1;
 			}
 	
@@ -187,6 +188,22 @@ a.btn {
 					padding-bottom: 20px;
 					display: block;
 				}
+
+				.home-container li a.btn.active {
+					color: #F44336;
+					border: 2px solid #F44336;
+				}
+
+					.home-container li a.btn.active:after {
+						content: "\f00d";
+						font-family: FontAwesome;
+						color: #F44336;
+						font-size: 22px;
+						position: absolute;
+						top: 50%;
+						right: 10px;
+						transform: translateY(-50%);
+					}
 
 			.home-image {
 				position: absolute;
