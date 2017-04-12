@@ -192,16 +192,22 @@ a.btn {
 				.home-container li a.btn.active {
 					color: #F44336;
 					border: 2px solid #F44336;
+					padding: 10px 44px 10px 14px;
+				}
+
+				.home-container li a.btn.active:hover {
+					background: #F44336;
+					color: #ffffff;
 				}
 
 					.home-container li a.btn.active:after {
 						content: "\f00d";
 						font-family: FontAwesome;
 						color: #F44336;
-						font-size: 22px;
+						font-size: 20px;
 						position: absolute;
 						top: 50%;
-						right: 10px;
+						right: 15px;
 						transform: translateY(-50%);
 					}
 
