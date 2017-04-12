@@ -229,3 +229,7 @@ footer {
 		footer h3 a {
 			color: #2A3A3F;
 		}
+
+			footer h3 a:hover {
+				color: #ffffff;
+			}
