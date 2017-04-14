@@ -107,6 +107,10 @@ a.btn {
 		color: #1c1b20;
 	}
 
+		.links a:hover {
+			color: #4aa254;
+		}
+
 .menu {
     position: fixed;
     top: 0;
@@ -309,7 +313,7 @@ a.btn {
 
 		.home-header h1 span {
 			color: #4aa254;
-			
+
 		}
 
 	.home-header a {
