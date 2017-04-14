@@ -119,7 +119,7 @@ a.btn {
 		}
 
 			.menu .toggle i span {				
-				height: 2px;
+				width: 2px;
 				float: left;
 				background: #1c1b20;
 			}
@@ -129,16 +129,28 @@ a.btn {
 			}
 
 			.menu .toggle i span:nth-child(1) {
-				width: 15px;
+				height: 15px;
 			}
 
 			.menu .toggle i span:nth-child(2) {
-				width: 20px;
+				height: 20px;
 			}
 
 			.menu .toggle i span:nth-child(3) {
-				width: 10px;
+				height: 10px;
 			}
+
+				.menu .toggle.menu-hover i span:nth-child(1) {
+					height: 20px;
+				}
+
+				.menu .toggle.menu-hover i span:nth-child(2) {
+					height: 22px;
+				}
+
+				.menu .toggle.menu-hover i span:nth-child(3) {
+					height: 18px;
+				}
 
 		.menu .toggle p {
 			font-weight: 800;
