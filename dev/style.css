@@ -110,7 +110,7 @@ a.btn {
 	}
 
 	.menu-active .menu {
-		max-width: 65%!important;
+		max-width: 50%!important;
 	}
 
 	.menu .toggle {
@@ -203,7 +203,7 @@ a.btn {
 		position: absolute;
 		top: 50%;
 		left: 0;
-	    transform: translate(-200px,-50%);
+	    transform: translate(-400px,-50%);
 	}
 
 		.menu-active .menu .menu-content {
@@ -211,15 +211,16 @@ a.btn {
 		}
 
 		.menu .menu-content ul li a {
-		    font-size: 50px;
-		    font-weight: 800;
-		    letter-spacing: 1px;
-		    text-transform: uppercase;
-		    margin: 20px 0;
-		    position: relative;
-		    display: block;
-		    color: #1c1b20;
-		    overflow: hidden;
+			font-size: 50px;
+			font-weight: 800;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			margin: 20px 0;
+			position: relative;
+			display: inline-block;
+			color: #1c1b20;
+			overflow: hidden;
+			line-height: 1;
 		}
 
 			.menu .menu-content ul li a:before {
@@ -228,14 +229,14 @@ a.btn {
 				top: 50%;
 				left: 0;
 				width: 100%;
-				height: 80%;
-				background: #4aa254;
+				height: 60%;
+				background: rgba(74, 162, 84,0.6);
 				transition: transform 0.6s;
-				transform: translateX(-110%);
+				transform: translate(-110%,-50%);
 			}
 
 				.menu .menu-content ul li a:hover:before {
-					transform: translateX(0%);
+					transform: translate(0%,-50%);
 				}
 
 .main {
@@ -244,7 +245,7 @@ a.btn {
 }
 
 	.menu-active .main {
-	    transform: translateX(calc(50%));
+	    transform: translateX(45%);
 	}
 
 .home-header {
