@@ -296,20 +296,21 @@ a.btn {
 		left: 50%;
 		transform: translateX(-50%);
 		font-weight: 800;
-		color: #4aa254;
+		font-size: 16px;
+		color: #1c1b20;
 		letter-spacing: 1px;
 		z-index: 6;
 	}
 
 		.home-header a:after {
-			content: "\f078";
+			content: "\f175";
 			font-family: FontAwesome;
 			position: absolute;
 			bottom: -30px;
 			left: 50%;
 			transform: translateX(-50%);
-			color: #4aa254;
-			font-size: 20px;
+			color: #1c1b20;
+			font-size: 16px;
 		}
 
 		.home-header a:hover {
