@@ -288,9 +288,9 @@ a.btn {
 		font-weight: 800;
 		font-size: 60px;
 		z-index: 6;
-		-webkit-animation: grow 2s forwards;
-		-o-animation: grow 2s forwards;
-		animation: grow 2s forwards;
+		-webkit-animation: title_grow 2s forwards;
+		-o-animation: title_grow 2s forwards;
+		animation: title_grow 2s forwards;
 	}
 
 	.home-header a {
@@ -303,9 +303,9 @@ a.btn {
 		color: #1c1b20;
 		letter-spacing: 1px;
 		z-index: 6;
-		-webkit-animation: grow 2s forwards;
-		-o-animation: grow 2s forwards;
-		animation: grow 2s forwards;
+		-webkit-animation: link_grow 2s forwards;
+		-o-animation: link_grow 2s forwards;
+		animation: link_grow 2s forwards;
 	}
 
 		.home-header a:after {
@@ -370,51 +370,99 @@ a.btn {
 			}
 		}
 
-		@-webkit-keyframes grow {
+		@-webkit-keyframes title_grow {
 			0% {
-				-webkit-transform: scale(0);
+				-webkit-transform: translate(-50%, -50%) scale(0);
 			}
 			75% {
-				-webkit-transform: scale(1.1);
+				-webkit-transform: translate(-50%, -50%) scale(1.1);
 			}
 			100% {
-				-webkit-transform: scale(1);
+				-webkit-transform: translate(-50%, -50%) scale(1);
 			}
 		}
 
-		@-moz-keyframes grow {
+		@-moz-keyframes title_grow {
 			0% {
-				-moz-transform: scale(0);
+				-moz-transform: translate(-50%, -50%) scale(0);
 			}
 			75% {
-				-moz-transform: scale(1.1);
+				-moz-transform: translate(-50%, -50%) scale(1.1);
 			}
 			100% {
-				-moz-transform: scale(1);
+				-moz-transform: translate(-50%, -50%) scale(1);
 			}
 		}
 
-		@-o-keyframes grow {
+		@-o-keyframes title_grow {
 			0% {
-				-o-transform: scale(0);
+				-o-transform: translate(-50%, -50%) scale(0);
 			}
 			75% {
-				-o-transform: scale(1.1);
+				-o-transform: translate(-50%, -50%) scale(1.1);
 			}
 			100% {
-				-o-transform: scale(1);
+				-o-transform: translate(-50%, -50%) scale(1);
 			}
 		}
 
-		@keyframes grow {
+		@keyframes title_grow {
 			0% {
-				transform: scale(0);
+				transform: translate(-50%, -50%) scale(0);
 			}
 			75% {
-				transform: scale(1.1);
+				transform: translate(-50%, -50%) scale(1.1);
 			}
 			100% {
-				transform: scale(1);
+				transform: translate(-50%, -50%) scale(1);
+			}
+		}
+
+		@-webkit-keyframes link_grow {
+			0% {
+				-webkit-transform: translateX(-50%) scale(0);
+			}
+			75% {
+				-webkit-transform: translateX(-50%) scale(1.1);
+			}
+			100% {
+				-webkit-transform: translateX(-50%) scale(1);
+			}
+		}
+
+		@-moz-keyframes link_grow {
+			0% {
+				-moz-transform: translateX(-50%) scale(0);
+			}
+			75% {
+				-moz-transform: translateX(-50%) scale(1.1);
+			}
+			100% {
+				-moz-transform: translateX(-50%) scale(1);
+			}
+		}
+
+		@-o-keyframes link_grow {
+			0% {
+				-o-transform: translateX(-50%) scale(0);
+			}
+			75% {
+				-o-transform: translateX(-50%) scale(1.1);
+			}
+			100% {
+				-o-transform: translateX(-50%) scale(1);
+			}
+		}
+
+		@keyframes link_grow {
+			0% {
+				transform: translateX(-50%) scale(0);
+			}
+			75% {
+				transform: translateX(-50%) scale(1.1);
+			}
+			100% {
+				transform: translateX(-50%) scale(1);
 			}
 		}
 
