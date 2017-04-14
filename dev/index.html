@@ -19,6 +19,10 @@
 			<div class="right"></div>
 		</div>
 
+		<div class="menu cf">
+			<div class="toggle"><span></span><p>Menu</p></div>
+		</div>
+
 		<div class="home-header cf">
 
 			<h1>Test Content. Something else here.</h1>
@@ -115,6 +119,11 @@
 		$('.expand').click(function() {
 			$(this).toggleClass('active');
 			$(this).parent().siblings('.expand-image').toggleClass('active');
+		});
+
+		$('.menu .toggle').click(function() {
+			$(this).toggleClass('menu-active');
+			$('body').toggleClass('menu-active');
 		});
 
 	</script>
