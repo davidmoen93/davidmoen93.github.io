@@ -288,6 +288,9 @@ a.btn {
 		font-weight: 800;
 		font-size: 60px;
 		z-index: 6;
+		-webkit-animation: grow 2s forwards;
+		-o-animation: grow 2s forwards;
+		animation: grow 2s forwards;
 	}
 
 	.home-header a {
@@ -300,6 +303,9 @@ a.btn {
 		color: #1c1b20;
 		letter-spacing: 1px;
 		z-index: 6;
+		-webkit-animation: grow 2s forwards;
+		-o-animation: grow 2s forwards;
+		animation: grow 2s forwards;
 	}
 
 		.home-header a:after {
@@ -307,7 +313,7 @@ a.btn {
 			font-family: FontAwesome;
 			position: absolute;
 			bottom: -40px;
-			left: 50%;
+			left: calc(50% - 4px);
 			transform: translateX(-50%);
 			color: #1c1b20;
 			font-size: 16px;
@@ -361,6 +367,54 @@ a.btn {
 			}
 			60% {
 				transform: translateY(-10px);
+			}
+		}
+
+		@-webkit-keyframes grow {
+			0% {
+				-webkit-transform: scale(0);
+			}
+			75% {
+				-webkit-transform: scale(1.1);
+			}
+			100% {
+				-webkit-transform: scale(1);
+			}
+		}
+
+		@-moz-keyframes grow {
+			0% {
+				-moz-transform: scale(0);
+			}
+			75% {
+				-moz-transform: scale(1.1);
+			}
+			100% {
+				-moz-transform: scale(1);
+			}
+		}
+
+		@-o-keyframes grow {
+			0% {
+				-o-transform: scale(0);
+			}
+			75% {
+				-o-transform: scale(1.1);
+			}
+			100% {
+				-o-transform: scale(1);
+			}
+		}
+
+		@keyframes grow {
+			0% {
+				transform: scale(0);
+			}
+			75% {
+				transform: scale(1.1);
+			}
+			100% {
+				transform: scale(1);
 			}
 		}
 
