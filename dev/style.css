@@ -96,7 +96,7 @@ a.btn {
 .links {
 	position: fixed;
 	top: 50%;
-	right: 50px;
+	right: 42px;
 	transform: translateY(-50%);
 	z-index: 50;
 }
@@ -306,6 +306,10 @@ a.btn {
 		-o-animation: title_grow 2s forwards;
 		animation: title_grow 2s forwards;
 	}
+
+		.home-header h1 span {
+			color: #4aa254;
+		}
 
 	.home-header a {
 		position: absolute;
