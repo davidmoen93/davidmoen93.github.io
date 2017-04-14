@@ -48,17 +48,50 @@ a.btn {
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: all .15s ease;
-	color: #289628;
-	border: 2px solid #289628;
+	color: #226D2B;
+	border: 2px solid #226D2B;
 	background: transparent;
 	position: relative;
 }
 
 	a.btn:hover {
-		background: #289628;
+		background: #226D2B;
 		color: #ffffff;
 	}
 
+.borders > div {
+	position: absolute;
+	z-index: 50;
+	background: #ffffff;
+}
+
+	.borders > .top {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+	}
+
+	.borders > .bottom {
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+	}
+
+	.borders > .left {
+		top: 0;
+		left: 0;
+		width: 50px;
+		height: 100%;
+	}
+
+	.borders > .right {
+		top: 0;
+		right: 0;
+		width: 50px;
+		height: 100%;
+	}
 
 .home-header {
 	display: block;
@@ -70,6 +103,28 @@ a.btn {
 	text-align: center;
 }
 
+	.home-header:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		background: #226D2B;
+		z-index: 5;
+	}
+
+	.home-header:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 50%;
+		height: 100%;
+		background: #eaeaea;
+		z-index: 5;
+	}
+
 	.home-header h1 {
 		position: absolute;
 		top: 50%;
@@ -78,6 +133,7 @@ a.btn {
 		font-weight: 800;
 		font-size: 60px;
 		color: #ffffff;
+		z-index: 6;
 	}
 
 	.home-header a {
@@ -88,6 +144,7 @@ a.btn {
 		color: #ffffff;
 		font-weight: 800;
 		letter-spacing: 1px;
+		z-index: 6;
 	}
 
 		.home-header a:after {
@@ -129,7 +186,7 @@ a.btn {
 	}
 	
 		.home-container h4 a {
-			color: #289628;
+			color: #226D2B;
 			opacity: 0.66;
 		}
 	
@@ -248,7 +305,7 @@ a.btn {
 
 footer {
 	width: 100%;
-	background: #289628;
+	background: #226D2B;
 	color: #ffffff;
 	text-align: center;
 	padding: 100px 50px;
