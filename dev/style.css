@@ -93,6 +93,29 @@ a.btn {
 		height: 100%;
 	}
 
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 75;
+    height: 100%;
+    width: 60%;
+    max-width: 125px;
+    transition: max-width 0.8s;
+}
+
+	.menu .toggle {
+		position: absolute;
+		top: 50%;
+		left: 50px;
+		transform: translateY(-50%) rotate(90deg);
+	}
+
+.main {
+	display: block;
+	padding: 50px;
+}
+
 .home-header {
 	display: block;
 	position: relative;
