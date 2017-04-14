@@ -199,7 +199,7 @@ a.btn {
 				opacity: 0;
 			}
 
-	.menu .content {
+	.menu .menu-content {
 		position: absolute;
 		top: 50%;
 		left: 0;
@@ -207,9 +207,9 @@ a.btn {
 		opacity: 0;
 	}
 
-		.menu-active .menu .contact {
+		.menu-active .menu .menu-content {
 			opacity: 1;
-			
+
 		}
 
 .main {
