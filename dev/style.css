@@ -199,6 +199,19 @@ a.btn {
 				opacity: 0;
 			}
 
+	.menu .content {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		opacity: 0;
+	}
+
+		.menu-active .menu .contact {
+			opacity: 1;
+			
+		}
+
 .main {
 	display: block;
 	padding: 50px;
