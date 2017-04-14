@@ -100,9 +100,18 @@ a.btn {
     z-index: 75;
     height: 100%;
     width: 60%;
-    max-width: 125px;
-    transition: max-width 0.8s;
+	max-width: 50px;
+	transition: max-width 0.8s;
+	background: #ffffff;
 }
+
+	.menu-hover .menu {
+		max-width: 100px;
+	}
+
+	.menu-active .menu {
+		max-width: 65%!important;
+	}
 
 	.menu .toggle {
 		position: absolute;
@@ -122,10 +131,8 @@ a.btn {
 				width: 2px;
 				float: left;
 				background: #1c1b20;
-			}
-
-			.menu .toggle i span:not(:last-child) {
-				margin-right: 3px;
+				margin: 0 2px;
+				opacity: 1;
 			}
 
 			.menu .toggle i span:nth-child(1) {
@@ -152,18 +159,31 @@ a.btn {
 					height: 18px;
 				}
 
+				.menu-active .menu .toggle i span:nth-child(3) {
+					opacity: 0;
+				}
+
 		.menu .toggle p {
 			font-weight: 800;
 			text-transform: uppercase;
 			letter-spacing: 1px;
 			font-size: 14px;
 			padding-top: 30px;
+			opacity: 1;
 		}
+
+			.menu-active .menu .toggle p {
+				opacity: 0;
+			}
 
 .main {
 	display: block;
 	padding: 50px;
 }
+
+	.menu-active .main {
+	    transform: translateX(calc(50%));
+	}
 
 .home-header {
 	display: block;
