@@ -682,7 +682,7 @@ a.btn {
 		    margin-bottom: 150px;
 		}
 
-			.projects-container > ul > li:nth-child(even) .project-content {
+			.projects-container > ul > li:nth-child(odd) .project-content {
 			    width: 50%;
 			    position: absolute;
 			    padding-right: 150px;
@@ -691,7 +691,7 @@ a.btn {
 			    transform: translateY(-50%);
 			}
 
-			.projects-container > ul > li:nth-child(odd) .project-content {
+			.projects-container > ul > li:nth-child(even) .project-content {
 			    width: 50%;
 			    position: absolute;
 			    padding-left: 150px;
@@ -728,11 +728,11 @@ a.btn {
 				text-align: center;
 			}
 
-				.projects-container > ul > li:nth-child(even) .project-image {
+				.projects-container > ul > li:nth-child(odd) .project-image {
 					float: right;
 				}
 
-				.projects-container > ul > li:nth-child(odd) .project-image {
+				.projects-container > ul > li:nth-child(even) .project-image {
 					float: left;
 				}
 
