@@ -695,18 +695,18 @@ a.btn {
 				    width: 80%;
 				}
 
-				.home-image img:not(:first-child) {
+				.project-image img:not(:first-child) {
 				    position: absolute;
 				    bottom: 0;
 				}
 
-				.home-image img:nth-child(2) {
+				.project-image img:nth-child(2) {
 				    left: 0;
 				    max-width: 175px;
 				    height: auto;
 				}
 
-				.home-image img:nth-child(3) {
+				.project-image img:nth-child(3) {
 					right: 0;
 					max-width: 240px;
 					height: auto;
