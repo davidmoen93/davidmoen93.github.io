@@ -720,9 +720,8 @@ a.btn.expand.active {
 			    width: 50%;
 			    position: absolute;
 			    padding-right: 150px;
-			    top: 50%;
+			    top: 75px;
 			    left: 0;
-			    transform: translateY(-50%);
 			}
 
 			.projects-container > ul > li:nth-child(even) .project-content {
