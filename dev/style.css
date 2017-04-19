@@ -54,6 +54,36 @@ a.btn {
 	position: relative;
 }
 
+a.btn.expand.active {
+	padding: 10px 20px 10px 14px;
+	color: #ff4444;
+	border: 2px solid #ff4444;
+	background: #ff4444;
+	position: relative;
+}
+
+	a.btn.expand.active:before {
+		content: "Close";
+		color: #ffffff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	a.btn.expand.active:before {
+		content: "\f00d";
+		font-family: FontAwesome;
+		color: #ffffff;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		font-size: 20px;
+	}
+
 	a.btn:hover {
 		background: #4aa254;
 		color: #ffffff;
