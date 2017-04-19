@@ -761,6 +761,10 @@ a.btn {
 					max-width: 240px;
 					height: auto;
 				}
+
+			.expand-image {
+				display: none;
+			}
 	
 
 footer {
