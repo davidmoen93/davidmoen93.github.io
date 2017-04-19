@@ -659,8 +659,12 @@ a.btn {
 		}
 
 			.projects-container > div h3 a {
-				color: #4aa254;
+				color: #1c1b20;
 			}
+
+				.projects-container > div h3 a:hover {
+					color: #4aa254;
+				}
 
 	.projects-container > ul {
 		display: block;
