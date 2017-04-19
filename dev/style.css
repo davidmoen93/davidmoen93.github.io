@@ -617,7 +617,8 @@ a.btn {
 	.projects-container > div {
 		display: block;
 		width: 100%;
-		padding-left: 0 50px 0 250px;
+		margin-top: 50px;
+		padding: 0 50px 0 250px;
 	}
 
 		.projects-container > div h2 {
@@ -631,6 +632,10 @@ a.btn {
 			padding-top: 50px;
 			position: relative;
 		}
+
+			.projects-container > div h2 span {
+				color: #4aa254;
+			}
 
 			.projects-container > div h2:before {
 				content: "";
@@ -660,7 +665,7 @@ a.btn {
 	.projects-container > ul {
 		display: block;
 		width: 100%;
-		padding-left: 0 100px;
+		padding: 0 100px;
 	}
 
 		.projects-container > ul > li {
