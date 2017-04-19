@@ -852,6 +852,7 @@ footer {
 		right: initial;
 		float: left;
 		padding-top: 50px;
+		width: 100%;
 	}
 
 	.project-image {
