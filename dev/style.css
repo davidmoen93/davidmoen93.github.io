@@ -716,14 +716,14 @@ a.btn.expand.active {
 		}
 
 			.projects-container > ul > li:nth-child(odd) .project-content {
-		        width: calc(100% - 950px);
+		        width: 30%;
 			    position: absolute;
 			    top: 75px;
 			    left: 0;
 			}
 
 			.projects-container > ul > li:nth-child(even) .project-content {
-		        width: calc(100% - 950px);
+		        width: 30%;
 			    position: absolute;
 			    top: 75px;
 			    left: calc(50% + 150px);
@@ -752,7 +752,7 @@ a.btn.expand.active {
 				}
 
 			.project-image {
-				max-width: 800px;
+				max-width: 65%;
 				width: 100%;
 				position: relative;
 				text-align: center;
@@ -844,6 +844,29 @@ footer {
 	.about-container > div:first-child, .projects-container > div {
 	    padding: 0 50px 0 75px;
 	}
+
+	.projects-container > ul > li {
+		padding-bottom: 300px;
+	}
+
+	.projects-container > ul > li:nth-child(odd) .project-content, .projects-container > ul > li:nth-child(even) .project-content {
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		right: initial;
+	}
+
+	.project-image {
+		max-width: 100%;
+	}
+
+		.project-image img:not(:first-child) {
+			bottom: 20px;
+		}
+
+		.project-image img:nth-child(2) {
+			left: 30px;
+		}
 
 }
 
