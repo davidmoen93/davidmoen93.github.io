@@ -676,15 +676,27 @@ a.btn {
 		    width: 100%;
 		    display: block;
 		    position: relative;
-		    margin: 50px 0;
 		}
 
-			.project-content {
+		.projects-container > ul > li:not(:last-child) {
+		    margin-bottom: 150px;
+		}
+
+			.projects-container > ul > li:nth-child(even) .project-content {
 			    width: 50%;
 			    position: absolute;
 			    padding-right: 150px;
 			    top: 50%;
 			    left: 0;
+			    transform: translateY(-50%);
+			}
+
+			.projects-container > ul > li:nth-child(odd) .project-content {
+			    width: 50%;
+			    position: absolute;
+			    padding-left: 150px;
+			    top: 50%;
+			    left: 50%;
 			    transform: translateY(-50%);
 			}
 
@@ -712,10 +724,17 @@ a.btn {
 
 			.project-image {
 				width: 50%;
-				float: left;
 				position: relative;
 				text-align: center;
 			}
+
+				.projects-container > ul > li:nth-child(even) .project-image {
+					float: right;
+				}
+
+				.projects-container > ul > li:nth-child(odd) .project-image {
+					float: left;
+				}
 
 				.project-image img:first-child {
 				    max-width: 100%;
