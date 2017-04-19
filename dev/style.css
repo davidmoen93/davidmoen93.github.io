@@ -845,15 +845,13 @@ footer {
 	    padding: 0 50px 0 75px;
 	}
 
-	.projects-container > ul > li {
-		padding-bottom: 300px;
-	}
-
 	.projects-container > ul > li:nth-child(odd) .project-content, .projects-container > ul > li:nth-child(even) .project-content {
-		width: 100%;
-		bottom: 0;
-		left: 0;
+		position: relative;
+		top: initial;
+		left: initial;
 		right: initial;
+		float: left;
+		padding-top: 50px;
 	}
 
 	.project-image {
