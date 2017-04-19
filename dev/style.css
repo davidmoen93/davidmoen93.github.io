@@ -73,7 +73,7 @@ a.btn.expand.active {
 		font-weight: 600;
 	}
 
-	a.btn.expand.active:before {
+	a.btn.expand.active:after {
 		content: "\f00d";
 		font-family: FontAwesome;
 		color: #ffffff;
