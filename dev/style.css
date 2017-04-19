@@ -217,6 +217,21 @@ a.btn {
 				opacity: 0;
 			}
 
+			.menu .toggle:after {
+			    content: "Close";
+			    font-weight: 800;
+			    text-transform: uppercase;
+			    letter-spacing: 1px;
+			    font-size: 14px;
+			    opacity: 0;
+			    position: absolute;
+			    bottom: 0;
+			}
+
+				.menu-active .menu .toggle:after {
+				    opacity: 1;
+				}
+
 	.menu .menu-content {
 		position: absolute;
 		top: 50%;
