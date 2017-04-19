@@ -600,8 +600,7 @@ a.btn.expand.active {
 	    position: absolute;
 	    background: #0E6318;
 	    left: 50%;
-	    top: 50%;
-	    transform: translateY(-50%);
+	    bottom: 100px;
 	    padding: 50px;
 	    color: #ffffff;
 	}
