@@ -613,6 +613,61 @@ a.btn {
 	width: 100%;
 	display: block;
 }
+
+	.projects-container > div {
+		display: block;
+		width: 100%;
+		padding-left: 0 50px 0 250px;
+	}
+
+		.projects-container > div h2 {
+			font-weight: 800;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-size: 80px;
+			max-width: 300px;
+			line-height: 1.2;
+			margin-bottom: 50px;
+			padding-top: 50px;
+			position: relative;
+		}
+
+			.projects-container > div h2:before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100px;
+				height: 7px;
+				background: #1c1b20;
+			}
+
+		.projects-container > div h3 {
+			color: #4aa254;
+		    margin-bottom: 50px;
+		    font-weight: 800;
+		    font-size: 35px;
+		    letter-spacing: 1px;
+		    max-width: 300px;
+		    line-height: 1.2;
+		    position: relative;
+		}
+
+			.projects-container > div h3 a {
+				color: #4aa254;
+			}
+
+	.projects-container > ul {
+		display: block;
+		width: 100%;
+		padding-left: 0 100px;
+	}
+
+		.projects-container > ul > li {
+			width: 100%;
+			display: block;
+			margin: 50px 0;
+		}
 	
 
 footer {
