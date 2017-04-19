@@ -576,11 +576,31 @@ a.btn {
 		.about-container > div:last-child ul {
 			width: 50%;
 			float: left;
+			position: relative;
+			padding-top: 20px;
 		}
 
 		.about-container > div:last-child ul:nth-child(-n+2) {
-			
+			margin-bottom: 50px;
 		}
+
+			.about-container > div:last-child ul:before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100px;
+				height: 3px;
+				background: #ffffff;
+			}
+
+			.about-container > div:last-child ul strong {
+				display: block;
+				text-transform: uppercase;
+				font-weight: 800;
+				font-size: 18px;
+				padding-bottom: 20px;
+			}
 
 .home-container {
 	width: 100%;
