@@ -677,6 +677,40 @@ a.btn {
 			display: block;
 			margin: 50px 0;
 		}
+
+			.project-content {
+				width: 50%;
+				float: left;
+			}
+
+			.project-image {
+				width: 50%;
+				float: left;
+				position: relative;
+				text-align: center;
+			}
+
+				.project-image img:first-child {
+				    max-width: 100%;
+				    width: 80%;
+				}
+
+				.home-image img:not(:first-child) {
+				    position: absolute;
+				    bottom: 0;
+				}
+
+				.home-image img:nth-child(2) {
+				    left: 0;
+				    max-width: 175px;
+				    height: auto;
+				}
+
+				.home-image img:nth-child(3) {
+					right: 0;
+					max-width: 240px;
+					height: auto;
+				}
 	
 
 footer {
