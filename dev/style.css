@@ -1055,25 +1055,33 @@ footer {
 		padding: 0 25px;
 	}
 
-	.projects-container > ul {
-		padding: 0 25px;
+	.projects-container {
+		margin-bottom: 400px;
 	}
 
-		.project-image {
-			text-align: center;
+		.projects-container > ul {
+			padding: 0 25px;
 		}
 
-			.project-image img:first-child {
-				width: 100%;
+			.project-image {
+				text-align: center;
 			}
 
-			.project-image img:nth-child(2) {
-			    position: relative;
-			    left: initial;
-			    top: initial;
-			    right: initial;
-			    bottom: initial;
-			    max-width: 300px;
-			}
+				.project-image img:first-child {
+					width: 100%;
+				}
+
+				.project-image img:nth-child(2) {
+				    position: relative;
+				    left: initial;
+				    top: initial;
+				    right: initial;
+				    bottom: initial;
+				    max-width: 300px;
+				}
+
+	footer {
+		height: 400px;
+	}
 
 }
