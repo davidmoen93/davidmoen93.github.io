@@ -727,7 +727,7 @@ a.btn.expand.active {
 		        width: 30%;
 			    position: absolute;
 			    top: 75px;
-			    left: calc(50% + 150px);
+			    left: calc(65% + 150px);
 			}
 
 				.project-content h3 {
