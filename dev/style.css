@@ -909,8 +909,20 @@ footer {
 			    left: initial;
 			}
 
+				.menu-active .menu .toggle i span:nth-child(1) {
+				    transform: translate(-50%,-50%) rotate(-45deg);
+				}
+
+				.menu-active .menu .toggle i span:nth-child(2) {
+				    transform: translate(-50%,-50%) rotate(45deg);
+				}
+
 			.menu .toggle p {
 				padding: 0;
+			}
+
+			.menu .toggle:after {
+				bottom: 0;
 			}
 
 	.links {
@@ -938,5 +950,57 @@ footer {
 	.home-header {
 		height: 100vh;
 	}
+
+		.home-header h1 {
+			top: 100px;
+		}
+
+			@-webkit-keyframes title_grow {
+				0% {
+					-webkit-transform: translateX(-50%) scale(0);
+				}
+				75% {
+					-webkit-transform: translateX(-50%) scale(1.1);
+				}
+				100% {
+					-webkit-transform: translateX(-50%) scale(1);
+				}
+			}
+
+			@-moz-keyframes title_grow {
+				0% {
+					-moz-transform: translateX(-50%) scale(0);
+				}
+				75% {
+					-moz-transform: translateX(-50%) scale(1.1);
+				}
+				100% {
+					-moz-transform: translateX(-50%) scale(1);
+				}
+			}
+
+			@-o-keyframes title_grow {
+				0% {
+					-o-transform: translateX(-50%) scale(0);
+				}
+				75% {
+					-o-transform: translateX(-50%) scale(1.1);
+				}
+				100% {
+					-o-transform: translateX(-50%) scale(1);
+				}
+			}
+
+			@keyframes title_grow {
+				0% {
+					transform: translateX(-50%) scale(0);
+				}
+				75% {
+					transform: translateX(-50%) scale(1.1);
+				}
+				100% {
+					transform: translateX(-50%) scale(1);
+				}
+			}
 
 }
