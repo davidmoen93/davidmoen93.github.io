@@ -967,4 +967,43 @@ footer {
 		    animation: none;
 		}
 
+	.about-container > div:first-child, .projects-container > div {
+		padding: 0 50px;
+	}
+
+	.about-container > div:first-child {
+		width: 100%;
+	}
+
+		.about-container > div:first-child h2, .about-container > div:first-child h3, .about-container > div:first-child p {
+			max-width: 50%;
+		}
+
+	.about-container > div:last-child {
+	    position: relative;
+	    float: left;
+	    width: calc(100% - 100px);
+	    left: 50px;
+	    bottom: initial;
+	    margin-top: 50px;
+	}
+
+		.projects-container > div h2, .projects-container > div h3 {
+			max-width: 50%;
+		}
+
+		.project-image {
+			text-align: left;
+		}
+
+			.project-image img:nth-child(2) {
+				max-width: 20%;
+				right: 0;
+				left: initial;
+			}
+
+			.project-image img:nth-child(3) {
+				display: none;
+			}
+
 }
