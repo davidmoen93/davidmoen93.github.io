@@ -894,6 +894,10 @@ footer {
 		    width: 80%;
 		}
 
+			.menu-active .menu .menu-content {
+				transform: translate(100px,-50%);
+			}
+
 		.menu .toggle {
 		    bottom: 26px;
 		    left: initial;
