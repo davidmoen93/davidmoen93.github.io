@@ -1038,13 +1038,18 @@ footer {
 		font-size: 25px;
 	}
 
-	.about-container > div:last-child ul {
-		width: 100%;
+	.about-container > div:last-child {
+		width: calc(100% - 50px);
+		left: 25px;
 	}
 
-		.about-container > div:last-child ul:nth-child(-n+3) {
-			margin-bottom: 50px;
+		.about-container > div:last-child ul {
+			width: 100%;
 		}
+
+			.about-container > div:last-child ul:nth-child(-n+3) {
+				margin-bottom: 50px;
+			}
 
 	.about-container > div:first-child, .projects-container > div {
 		padding: 0 25px;
@@ -1053,5 +1058,22 @@ footer {
 	.projects-container > ul {
 		padding: 0 25px;
 	}
+
+		.project-image {
+			text-align: center;
+		}
+
+			.project-image img:first-child {
+				width: 100%;
+			}
+
+			.project-image img:nth-child(2) {
+			    position: relative;
+			    left: initial;
+			    top: initial;
+			    right: initial;
+			    bottom: initial;
+			    max-width: 300px;
+			}
 
 }
