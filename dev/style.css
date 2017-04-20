@@ -1056,7 +1056,7 @@ footer {
 	}
 
 	.projects-container {
-		margin-bottom: 400px;
+		margin-bottom: 0;
 	}
 
 		.projects-container > ul {
@@ -1081,7 +1081,7 @@ footer {
 				}
 
 	footer {
-		height: 400px;
+		position: relative;
 	}
 
 }
