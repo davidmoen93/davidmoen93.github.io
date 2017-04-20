@@ -952,7 +952,8 @@ footer {
 	}
 
 		.home-header h1 {
-			top: 100px;
+			top: 30px;
+			font-size: 70px;
 		}
 
 			@-webkit-keyframes title_grow {
@@ -1002,5 +1003,9 @@ footer {
 					transform: translateX(-50%) scale(1);
 				}
 			}
+
+		.home-header a {
+			bottom: 200px;
+		}
 
 }
