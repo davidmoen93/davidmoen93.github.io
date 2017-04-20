@@ -355,10 +355,11 @@ a.btn.expand.active {
 		-webkit-animation: title_grow 2s forwards;
 		-o-animation: title_grow 2s forwards;
 		animation: title_grow 2s forwards;
+	    max-width: 260px;
 	}
 
 		.home-header h1 span {
-			color: #4aa254;
+			color: #1c1b20;
 
 		}
 
@@ -1014,9 +1015,9 @@ footer {
 
 @media (max-width: 767px) {
 
-	.home-header h1 {
+	/*.home-header h1 {
 		font-size: 40px;
-	}
+	}*/
 
 	.menu-active .menu .menu-content {
 	    transform: translate(30px,-50%);
