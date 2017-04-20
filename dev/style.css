@@ -871,44 +871,47 @@ footer {
 
 @media (max-width: 1120px) {
 
-	.home-container {
-		width: 90%;
+	.borders > div:not(:nth-child(2)) {
+	    display: none;
 	}
 
-}
-
-@media (max-width: 900px) {
-
-	.home-header h1 {
-		top: 50px;
-		transform: translateX(-50%);
-		width: 90%;
+	.borders > .bottom {
+	    height: 75px;
+        box-shadow: 0px 2px 10px 2px #a0a0a0;
 	}
 
-	.home-image {
-		top: 0;
-		left: 50%;
-		right: initial;
-		transform: translateX(-50%);
-		max-width: 300px;
+	.menu {
+		max-width: 0px;
 	}
 
-	.home-content {
-		width: 100%;
-		margin: 225px 0 0;
-		text-align: center;
+		.menu .toggle {
+		    bottom: 9px;
+		    left: initial;
+		    right: 30px;
+		    top: initial;
+		    transform: none;
+		    position: fixed;
+		}
+
+	.links {
+	    top: initial;
+	    bottom: 16px;
+	    left: 30px;
+	    transform: none;
 	}
 
-}
+		.links a {
+		    display: inline-block;
+		    margin: 0 20px 0 0;
+		    font-size: 25px;
+		}
 
-@media (max-width: 600px) {
-
-	.home-header h1 {
-		font-size: 45px;
+	.main {
+		padding: 0;
 	}
 
-	.home-header a {
-		bottom: 100px;
+	.home-header {
+		height: 100vh;
 	}
 
 }
