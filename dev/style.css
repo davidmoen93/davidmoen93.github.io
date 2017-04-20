@@ -882,33 +882,58 @@ footer {
 
 	.menu {
 		max-width: 0px;
+	    transition: max-width 0.6s, width 0.6s;
 	}
 
+		.menu-hover .menu {
+			max-width: 0;
+		}
+
+		.menu-active .menu {
+		    max-width: 80%!important;
+		    width: 80%;
+		}
+
 		.menu .toggle {
-		    bottom: 9px;
+		    bottom: 26px;
 		    left: initial;
-		    right: 30px;
+		    right: 65px;
 		    top: initial;
 		    transform: none;
 		    position: fixed;
 		}
+
+			.menu .toggle i {
+			    right: -35px;
+			    transform: translateY(-50%) rotate(90deg);
+			    left: initial;
+			}
+
+			.menu .toggle p {
+				padding: 0;
+			}
 
 	.links {
 	    top: initial;
 	    bottom: 16px;
 	    left: 30px;
 	    transform: none;
+	    right: initial;
 	}
 
 		.links a {
 		    display: inline-block;
-		    margin: 0 20px 0 0;
+		    margin: 0 30px 0 0;
 		    font-size: 25px;
 		}
 
 	.main {
 		padding: 0;
 	}
+
+		.menu-active .main {
+		    transform: translateX(60%);
+		}
 
 	.home-header {
 		height: 100vh;
