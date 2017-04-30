@@ -42,6 +42,13 @@
                     map: map,
                     title: 'Chapel!'
                 });
+
+		        var contentString = '<div id="content">Chapel</div>';
+
+		        var infowindow = new google.maps.InfoWindow({
+		          content: contentString;
+		          Marker.InfoWindowShown = True
+		        });
             }
         </script>
 	</head>
