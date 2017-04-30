@@ -30,3 +30,8 @@ html {
 	line-height: 1.61803398875;
 	background: #eeeeee;
 }
+
+#map {
+    width: 750px;
+    height: 500px;
+}
