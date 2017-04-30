@@ -36,26 +36,12 @@
                 // Create the Google Map using our element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
 
-			    var contentString = '<p><strong>Chapel</p>';
-
-			    var infowindow = new google.maps.InfoWindow({
-			      	content: contentString
-			  	});
-
-
 			    var marker = new google.maps.Marker({
 			        position: new google.maps.LatLng(54.8660321, -7.1354824),
 			        map: map,
-			        title: 'Chapel'
+			        title: 'Chapel',
+			        icon: 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png'
 			    });
-
-		    	google.maps.event.addListener(marker, 'click', function() {
-				    infowindow.open(map,marker);
-			  	});
-			  	// show map, open infoBox 
-		        google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
-		          	infowindow.open(map, marker);
-	        	});
             }
         </script>
 	</head>
